@@ -91,12 +91,12 @@ const Formulario = () => {
   }
 
 
-  return (
-    <div className="container-mt5">
+  return ( 
+    <div className="container-fluid">
       <h1 className='text-center'> CRUD OF BOOKS </h1> <hr />
       <div className="row">
         <div className="col-8">
-          <h4 className="text-center">Listado de libros</h4>
+          <h4 className="text-center">List of the books</h4>
           <ul className="list-group">
             {
             listbooks.map(item =>(
